@@ -36,11 +36,11 @@ build:
 after_build:
 
 after_test:
-  - cmd: scripts\CreateTransientFaultHandlingTestDatabase.bat
-  - cmd: dotnet restore "BVT\TransientFaultHandling.BVT\TransientFaultHandling.BVT.sln"
-  - cmd: msbuild "BVT\TransientFaultHandling.BVT\TransientFaultHandling.BVT.sln" /m /verbosity:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
-  - cmd: dotnet test "BVT\TransientFaultHandling.BVT\TransientFaultHandling.BVT.csproj" --configuration Release --no-build /property:Platform=AnyCPU
-  - cmd: scripts\DropTransientFaultHandlingTestDatabase.bat
+  - cmd: REM scripts\CreateTransientFaultHandlingTestDatabase.bat
+  - cmd: REM dotnet restore "BVT\TransientFaultHandling.BVT\TransientFaultHandling.BVT.sln"
+  - cmd: REM msbuild "BVT\TransientFaultHandling.BVT\TransientFaultHandling.BVT.sln" /m /verbosity:minimal /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+  - cmd: REM dotnet test "BVT\TransientFaultHandling.BVT\TransientFaultHandling.BVT.csproj" --configuration Release --no-build /property:Platform=AnyCPU
+  - cmd: REM scripts\DropTransientFaultHandlingTestDatabase.bat
 
 artifacts:
 - path: 'bin\Release\EnterpriseLibrary.TransientFaultHandling.*.nupkg'
