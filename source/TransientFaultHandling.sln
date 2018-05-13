@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransientFaultHandling.Configuration", "Src\TransientFaultHandling.Configuration\TransientFaultHandling.Configuration.csproj", "{F1FA20FB-5634-41B8-8196-14589DF98684}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{4D4E919E-811F-428B-A48C-20154FBF61F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransientFaultHandling.TestSupport", "Tests\TransientFaultHandling.TestSupport\TransientFaultHandling.TestSupport.csproj", "{BF660C02-400E-4230-B8F1-9AB48B164EFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransientFaultHandling", "Src\TransientFaultHandling\TransientFaultHandling.csproj", "{E7A6F876-1FA6-45A8-898C-9EE3D33440CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransientFaultHandling.Core.Tests", "Tests\TransientFaultHandling.Core.Tests\TransientFaultHandling.Core.Tests.csproj", "{A954B853-8B69-401B-BE1E-F9984AF68BC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransientFaultHandling.ServiceBus", "Src\TransientFaultHandling.ServiceBus\TransientFaultHandling.ServiceBus.csproj", "{939E2D99-434C-49A7-96CA-372D78FA0D7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransientFaultHandling.WindowsAzure.Storage", "Src\TransientFaultHandling.WindowsAzure.Storage\TransientFaultHandling.WindowsAzure.Storage.csproj", "{3D1F8654-BA08-472E-9A5D-F2D1EEE59134}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransientFaultHandling.Caching", "Src\TransientFaultHandling.Caching\TransientFaultHandling.Caching.csproj", "{694F23B5-C150-4965-B3BB-9906B2245019}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransientFaultHandling.Data", "Src\TransientFaultHandling.Data\TransientFaultHandling.Data.csproj", "{373B9B52-66D1-406D-B2B3-43C370804AD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transient Fault Handling Application Block", "Transient Fault Handling Application Block", "{101AB92C-33ED-489F-935C-116EED42573D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3FB5A1AA-C7E5-4E4A-A7FB-6BAD34C441D2}"
+	ProjectSection(SolutionItems) = preProject
+		..\appveyor.yml = ..\appveyor.yml
+		..\package.props = ..\package.props
+		..\version.props = ..\version.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1FA20FB-5634-41B8-8196-14589DF98684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FA20FB-5634-41B8-8196-14589DF98684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FA20FB-5634-41B8-8196-14589DF98684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FA20FB-5634-41B8-8196-14589DF98684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF660C02-400E-4230-B8F1-9AB48B164EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF660C02-400E-4230-B8F1-9AB48B164EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF660C02-400E-4230-B8F1-9AB48B164EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF660C02-400E-4230-B8F1-9AB48B164EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A6F876-1FA6-45A8-898C-9EE3D33440CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A6F876-1FA6-45A8-898C-9EE3D33440CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A6F876-1FA6-45A8-898C-9EE3D33440CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A6F876-1FA6-45A8-898C-9EE3D33440CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A954B853-8B69-401B-BE1E-F9984AF68BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A954B853-8B69-401B-BE1E-F9984AF68BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A954B853-8B69-401B-BE1E-F9984AF68BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A954B853-8B69-401B-BE1E-F9984AF68BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{939E2D99-434C-49A7-96CA-372D78FA0D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939E2D99-434C-49A7-96CA-372D78FA0D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939E2D99-434C-49A7-96CA-372D78FA0D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939E2D99-434C-49A7-96CA-372D78FA0D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1F8654-BA08-472E-9A5D-F2D1EEE59134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1F8654-BA08-472E-9A5D-F2D1EEE59134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1F8654-BA08-472E-9A5D-F2D1EEE59134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1F8654-BA08-472E-9A5D-F2D1EEE59134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694F23B5-C150-4965-B3BB-9906B2245019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694F23B5-C150-4965-B3BB-9906B2245019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694F23B5-C150-4965-B3BB-9906B2245019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694F23B5-C150-4965-B3BB-9906B2245019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373B9B52-66D1-406D-B2B3-43C370804AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373B9B52-66D1-406D-B2B3-43C370804AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373B9B52-66D1-406D-B2B3-43C370804AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373B9B52-66D1-406D-B2B3-43C370804AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1FA20FB-5634-41B8-8196-14589DF98684} = {101AB92C-33ED-489F-935C-116EED42573D}
+		{4D4E919E-811F-428B-A48C-20154FBF61F2} = {101AB92C-33ED-489F-935C-116EED42573D}
+		{BF660C02-400E-4230-B8F1-9AB48B164EFF} = {4D4E919E-811F-428B-A48C-20154FBF61F2}
+		{E7A6F876-1FA6-45A8-898C-9EE3D33440CC} = {101AB92C-33ED-489F-935C-116EED42573D}
+		{A954B853-8B69-401B-BE1E-F9984AF68BC0} = {4D4E919E-811F-428B-A48C-20154FBF61F2}
+		{939E2D99-434C-49A7-96CA-372D78FA0D7C} = {101AB92C-33ED-489F-935C-116EED42573D}
+		{3D1F8654-BA08-472E-9A5D-F2D1EEE59134} = {101AB92C-33ED-489F-935C-116EED42573D}
+		{694F23B5-C150-4965-B3BB-9906B2245019} = {101AB92C-33ED-489F-935C-116EED42573D}
+		{373B9B52-66D1-406D-B2B3-43C370804AD3} = {101AB92C-33ED-489F-935C-116EED42573D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {066DDA20-CD93-4B7E-9082-50E73B505162}
+	EndGlobalSection
+EndGlobal
