@@ -139,10 +139,10 @@ namespace EnterpriseLibrary.TransientFaultHandling.Tests.Storage.storage20_integ
                     try
                     {
                         var client = account.CreateCloudTableClient();
-                        client.RetryPolicy = new NoRetry();
+                        //client.RetryPolicy = new NoRetry();
                         // Explicitly set a VERY short timeout, to force a timeout very frequently.
-                        client.ServerTimeout = TimeSpan.FromSeconds(1);
-                        client.MaximumExecutionTime = TimeSpan.FromSeconds(1);
+                        //client.ServerTimeout = TimeSpan.FromSeconds(1);
+                        //client.MaximumExecutionTime = TimeSpan.FromSeconds(1);
 
                         var table = client.GetTableReference(tableName);
                         // Create the TableOperation that inserts the customer entity.

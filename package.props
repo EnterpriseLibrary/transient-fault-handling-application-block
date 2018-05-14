@@ -19,9 +19,9 @@
   <PropertyGroup>
     <SystemConfigurationConfigurationManagerVersion>4.4.*</SystemConfigurationConfigurationManagerVersion>
     <SystemDataSqlClientVersion>4.4.*</SystemDataSqlClientVersion>
-    <WindowsAzureServiceBusVersion>1.8.0.0</WindowsAzureServiceBusVersion>
-    <WindowsAzureStorageVersion>2.0.5.1</WindowsAzureStorageVersion>
-    <MicrosoftWindowsAzureCachingVersion>1.8.1.0</MicrosoftWindowsAzureCachingVersion>
+    <WindowsAzureServiceBusVersion>4.1.*</WindowsAzureServiceBusVersion>
+    <WindowsAzureStorageVersion>9.1.*</WindowsAzureStorageVersion>
+    <MicrosoftWindowsAzureCachingVersion>2.9.*</MicrosoftWindowsAzureCachingVersion>
   </PropertyGroup>
 
   <PropertyGroup>

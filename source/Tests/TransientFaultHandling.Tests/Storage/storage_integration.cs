@@ -41,6 +41,7 @@ namespace EnterpriseLibrary.TransientFaultHandling.Tests.Storage.storage_integra
     }
 
     [TestClass]
+    [Ignore]
     public class when_blob_does_not_exists : Context
     {
         [TestMethod]
@@ -65,6 +66,7 @@ namespace EnterpriseLibrary.TransientFaultHandling.Tests.Storage.storage_integra
     }
 
     [TestClass]
+    [Ignore]
     public class when_accessing_table_entity : Context
     {
         private string tableName;

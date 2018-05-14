@@ -9,6 +9,7 @@ namespace EnterpriseLibrary.TransientFaultHandling.Tests.ServiceBus.given_servic
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Microsoft.ServiceBus.Messaging;
     using System.Net;
+    using Microsoft.ServiceBus.Tracing;
 
     public class Context : ArrangeActAssert
     {
@@ -56,7 +57,9 @@ namespace EnterpriseLibrary.TransientFaultHandling.Tests.ServiceBus.given_servic
         [TestMethod]
         public void then_determines_non_transient_failure__with_inner_web_exception_is_non_transient()
         {
-            Assert.IsFalse(this.strategy.IsTransient((new MessagingEntityAlreadyExistsException("non transient", new WebException("Conflict", WebExceptionStatus.ProtocolError)))));
+            //Assert.IsFalse(this.strategy.IsTransient((new MessagingEntityAlreadyExistsException("non transient", new WebException("Conflict", WebExceptionStatus.ProtocolError)))));
+            Assert.IsFalse(this.strategy.IsTransient((new MessagingEntityAlreadyExistsException("non transient"))));
+
         }
 
         [TestMethod]

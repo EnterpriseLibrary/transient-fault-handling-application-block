@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\version.props = ..\version.props
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransientFaultHandling.Tests", "Tests\TransientFaultHandling.Tests\TransientFaultHandling.Tests.csproj", "{2E6DD749-1799-4F43-A01F-4D1676F3D3B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{373B9B52-66D1-406D-B2B3-43C370804AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{373B9B52-66D1-406D-B2B3-43C370804AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{373B9B52-66D1-406D-B2B3-43C370804AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6DD749-1799-4F43-A01F-4D1676F3D3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6DD749-1799-4F43-A01F-4D1676F3D3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6DD749-1799-4F43-A01F-4D1676F3D3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6DD749-1799-4F43-A01F-4D1676F3D3B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +88,7 @@ Global
 		{3D1F8654-BA08-472E-9A5D-F2D1EEE59134} = {101AB92C-33ED-489F-935C-116EED42573D}
 		{694F23B5-C150-4965-B3BB-9906B2245019} = {101AB92C-33ED-489F-935C-116EED42573D}
 		{373B9B52-66D1-406D-B2B3-43C370804AD3} = {101AB92C-33ED-489F-935C-116EED42573D}
+		{2E6DD749-1799-4F43-A01F-4D1676F3D3B4} = {4D4E919E-811F-428B-A48C-20154FBF61F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {066DDA20-CD93-4B7E-9082-50E73B505162}
